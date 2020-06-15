@@ -6,7 +6,7 @@ Echo server -- echo_client.c and echo_server.c
 
 Multiple processes -- echo_mpclient.c and echo_mpserver.c
 
-Multi-threading -- TBA
+Multi-threading -- chat_client.c and chat_server.c
 
 Multiplexing with select -- echo_client.c and  echo_selectserv.c
 
