@@ -6,6 +6,8 @@ softlink.c -- check if it is a soft link
 
 hardlink.c -- check if it is a hard link
 
+tac.c -- print from the last line to the first line
+
 # directory management
 
 ls_sort_size.c -- ls sorted by block size
