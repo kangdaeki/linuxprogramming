@@ -4,6 +4,8 @@
 
 myshell.c -- a little and simple shell program
 
+pst.c -- process tree
+
 # network programming
 
 One shot server -- client1.c and server1.c
