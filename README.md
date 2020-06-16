@@ -1,5 +1,11 @@
 # linuxprogramming
 
+# process management
+
+myshell.c -- a little and simple shell program
+
+# network programming
+
 One shot server -- client1.c and server1.c
 
 Echo server -- echo_client.c and echo_server.c
