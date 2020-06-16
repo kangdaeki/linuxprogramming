@@ -1,3 +1,11 @@
+# file management
+
+print_inodes.c -- print inode
+
+softlink.c -- check if it is a soft link
+
+hardlink.c -- check if it is a hard link
+
 # directory management
 
 ls_sort_size.c -- ls sorted by block size
