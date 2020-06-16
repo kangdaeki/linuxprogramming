@@ -1,4 +1,7 @@
-# linuxprogramming
+# directory management
+
+ls_sort_size.c -- ls sorted by size
+print_subdir.c -- print subdirectories
 
 # process management
 
