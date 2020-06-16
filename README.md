@@ -26,14 +26,14 @@ pst.c -- process tree
 
 # network programming
 
-One shot server -- client1.c and server1.c
+client1.c and server1.c -- one shot server
 
-Echo server -- echo_client.c and echo_server.c
+echo_client.c and echo_server.c -- echo server
 
-Multiple processes -- echo_mpclient.c and echo_mpserver.c
+echo_mpclient.c and echo_mpserver.c -- multiple processes
 
-Multi-threading -- chat_client.c and chat_server.c
+chat_client.c and chat_server.c -- multi-threading
 
-Multiplexing with select -- echo_client.c and  echo_selectserv.c
+echo_client.c and  echo_selectserv.c -- multiplexing with select
 
-Multiplexing with epoll -- TBA
+TBA -- multiplexing with epoll
