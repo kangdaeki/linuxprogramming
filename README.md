@@ -2,6 +2,8 @@
 
 # process management
 
+power_sum.c -- x^y + sum(x to y)
+
 myshell.c -- a little and simple shell program
 
 pst.c -- process tree
