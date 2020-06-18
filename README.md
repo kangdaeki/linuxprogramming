@@ -24,6 +24,10 @@ myshell.c -- a little and simple shell program
 
 pst.c -- process tree
 
+# signal
+
+signal.c -- basic signal processing using signal() (singnal() is an old function. Use sigaction().)
+
 # network programming
 
 client1.c and server1.c -- one shot server
