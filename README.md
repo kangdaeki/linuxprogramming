@@ -26,7 +26,9 @@ pst.c -- process tree
 
 # signal
 
-signal.c -- basic signal processing using signal() (singnal() is an old function. Use sigaction().)
+signal.c -- basic signal processing using signal() (singnal() is obsolete. Use sigaction().)
+
+sigaction.c -- basic signal processing using sigaction()
 
 # network programming
 
