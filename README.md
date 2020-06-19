@@ -44,6 +44,6 @@ echo_mpclient.c and echo_mpserver.c -- multiple processes
 
 chat_client.c and chat_server.c -- multi-threading
 
-echo_client.c and  echo_selectserv.c -- multiplexing with select
+echo_selectserv.c -- multiplexing with select (use echo_client.c for communication)
 
 TBA -- multiplexing with epoll
