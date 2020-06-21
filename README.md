@@ -44,6 +44,10 @@ echo_mpclient.c and echo_mpserver.c -- multiple processes
 
 chat_client.c and chat_server.c -- multi-threading
 
-echo_selectserv.c -- multiplexing with select (use echo_client.c for communication)
+echo_selectserv.c -- multiplexing with select (Level Trigger) (use echo_client.c for communication)
 
-echo_epollserv.c -- multiplexing with epoll (use echo_client.c for communication)
+echo_epollserv.c -- multiplexing with epoll (Level Trigger) (use echo_client.c for communication)
+
+echo_EPLTserv.c -- multiplexing with epoll (Level Trigger) (use echo_client.c for communication)
+
+echo_EPETserv.c -- multiplexing with epoll (Edge Trigger) (use echo_client.c for communication)
