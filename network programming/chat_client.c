@@ -1,8 +1,10 @@
+// sudo apt install manpages-posix
+// sudo apt install manpages-posix-dev
 // gcc -o chat_client chat_client.c -lpthread
 #define _REENTRANT
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
+#include <stdlib.h>
 #include <string.h>
 #include <pthread.h>
 #include <sys/types.h>
