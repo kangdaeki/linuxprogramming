@@ -2,6 +2,7 @@
 // sudo apt-get install libboost-all-dev
 // g++ server1.cpp -o server1 -lboost_system -lboost_thread
 #include <iostream>
+#include <cstdlib>
 #include <boost/asio.hpp>
 #include <boost/bind.hpp>
 
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
 		socket.read_some(boost::asio::buffer(buf), error);
 		if (error) {
 			if (boost::asio::error::eof==error) std::cout << "Disconnected" << std::endl;
-			else std::cout << "Error no: " << error.value() << ", error message: " << error.message() << std::endl;
+			else std::cerr << "Error no: " << error.value() << ", error message: " << error.message() << std::endl;
 			break;
 		}
 		std::cout << "From the client: " << buf << std::endl;
