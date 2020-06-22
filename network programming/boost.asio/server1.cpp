@@ -1,11 +1,10 @@
 // One shot echo server using boost.asio
 // sudo apt-get install libboost-all-dev
-// g++ server.cpp -o server -lboost_system -lboost_thread
+// g++ server1.cpp -o server1 -lboost_system -lboost_thread
 #include <iostream>
 #include <boost/asio.hpp>
 #include <boost/bind.hpp>
 
-const unsigned short PORT_NUMBER=1111;
 const int BUF_SIZE=1024;
 
 int main(int argc, char *argv[])
@@ -14,8 +13,9 @@ int main(int argc, char *argv[])
 		std::cout << "USAGE: " << argv[0] << " <port>" << std::endl;
 		return 1;
 	}
+	int port_no = atoi(argv[1]);
 	boost::asio::io_service io_service;
-	boost::asio::ip::tcp::endpoint endpoint(boost::asio::ip::tcp::v4(), PORT_NUMBER);
+	boost::asio::ip::tcp::endpoint endpoint(boost::asio::ip::tcp::v4(), port_no);
 	boost::asio::ip::tcp::acceptor acceptor(io_service, endpoint);
 	boost::asio::ip::tcp::socket socket(io_service);
 
