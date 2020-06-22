@@ -1,3 +1,4 @@
+// gcc -o chat_client chat_client.c -lpthread
 #define _REENTRANT
 #include <stdio.h>
 #include <stdlib.h>
