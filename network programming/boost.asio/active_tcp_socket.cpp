@@ -1,4 +1,4 @@
-// g++ active_socket.cpp -o active_socket -lboost_system -lboost_thread
+// g++ active_tcp_socket.cpp -o active_tcp_socket -lboost_system -lboost_thread
 #include <boost/asio.hpp>
 #include <iostream>
 
