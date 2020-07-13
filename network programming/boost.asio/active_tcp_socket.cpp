@@ -11,7 +11,7 @@ int main(int argc, char* argv[], char* env[])
   sock.open(protocol, ec);
   if (0!=ec.value())
   {
-    std::cout << "Failed to open the socket! " << "Error code = " << ec.value() << ". " << "Message : " << ec.message();
+    std::cerr << "Failed to open the socket! " << "Error code = " << ec.value() << ". " << "Message : " << ec.message();
     return ec.value();
   }
   return 0;
