@@ -1,3 +1,4 @@
+// g++ active_udp_socket.cpp -o active_udp_socket -lboost_system -lboost_thread
 #include <boost/asio.hpp>
 #include <iostream>
 
